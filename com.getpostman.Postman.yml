@@ -26,6 +26,7 @@ modules:
         dest-filename: apply_extra
         commands:
           - tar -xf Postman.tar.gz
+          - rm Postman.tar.gz
           - mkdir -p /app/extra/Postman
           - mv Postman/app/* /app/extra/Postman
       - type: extra-data
