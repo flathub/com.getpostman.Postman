@@ -2,7 +2,7 @@
 <component type="desktop">
   <id>com.getpostman.Postman</id>
   <metadata_license>CC0-1.0</metadata_license>
-  <project_license>Apache-2.0</project_license>
+  <project_license>Proprietary</project_license>
   <name>Postman</name>
   <summary>Postman is a complete API development environment.</summary>
   <description>
