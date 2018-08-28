@@ -22,6 +22,7 @@
   </screenshots>
   <url type="homepage">https://www.getpostman.com</url>
   <releases>
+    <release version="6.2.5" date="2018-08-20"/>
     <release version="6.2.4" date="2018-08-09"/>
     <release version="6.2.3" date="2018-08-02"/>
     <release version="6.2.2" date="2018-07-27"/>
