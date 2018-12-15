@@ -7,9 +7,11 @@
   <summary>Postman is a complete API development environment.</summary>
   <description>
     <p>
-      Postman helps you be more efficient while working with APIs. Using
-      Postman, you can construct complex HTTP requests quickly, organize them
-      in collections and share them with your co-workers.
+      Postman is the complete toolchain for API developers, used by 5 million
+      developers and more than 100,000 companies worldwide to access 130 million
+      APIs every month. Postman makes working with APIs faster and easier by
+      supporting developers at every stage of their workflow, and is available
+      for macOS, Windows, Linux and Chrome users.
 
       NOTE: This wrapper is not verified by, affiliated with, or supported by
       Postman or Postdot Technologies.
