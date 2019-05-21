@@ -17,7 +17,7 @@ modules:
     buildsystem: simple
     build-commands:
       - install -Dm755 apply_extra /app/bin/apply_extra
-      - install -Dm644 com.getpostman.Postman.png /app/share/icons/hicolor/128x128/apps/com.getpostman.Postman.png
+      - install -Dm644 logo-mark.svg /app/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg
       - install -Dm644 -t /app/share/applications com.getpostman.Postman.desktop
       - install -Dm644 -t /app/share/metainfo com.getpostman.Postman.appdata.xml
       - install -Dm755 run.sh /app/bin/Postman
@@ -52,4 +52,4 @@ modules:
       - type: file
         path: com.getpostman.Postman.appdata.xml
       - type: file
-        path: com.getpostman.Postman.png
+        path: logo-mark.svg
