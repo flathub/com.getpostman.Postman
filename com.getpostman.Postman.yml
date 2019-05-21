@@ -52,4 +52,4 @@ modules:
       - type: file
         path: com.getpostman.Postman.appdata.xml
       - type: file
-        path: com.getpostman.Postman.png
+        path: logo-mark.svg
