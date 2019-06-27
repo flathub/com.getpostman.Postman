@@ -32,16 +32,16 @@ modules:
       - type: extra-data
         only-arches:
           - x86_64
-        url: https://dl.pstmn.io/download/version/7.2.0/linux64
-        sha256: f136c6aeda8bd4230dc734b2e5bb8b5bbfb0c54c8c4f1b082ae1c72fc8471cf0
-        size: 71208112
+        url: https://dl.pstmn.io/download/version/7.2.2/linux64
+        sha256: 9810b4de280e0c7107eb5b0a5ef29e6c7c93d4f807426f14b165f83a413307e2
+        size: 72896951
         filename: Postman.tar.gz
       - type: extra-data
         only-arches:
           - i386
-        url: https://dl.pstmn.io/download/version/7.2.0/linux32
-        sha256: 130710e5ddde5d911a3eb40b3812cb0917fe3381d8852475daebaee28f6d72c8
-        size: 73323659
+        url: https://dl.pstmn.io/download/version/7.2.2/linux32
+        sha256: de7eed9c3a4077916b1c15dfa2a2f96f38728d850f3f2cf853c7655f5f6edc59
+        size: 75012937
         filename: Postman.tar.gz
       - type: script
         dest-filename: run.sh
