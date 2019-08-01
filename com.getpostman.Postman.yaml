@@ -1,5 +1,5 @@
 app-id: com.getpostman.Postman
-base: io.atom.electron.BaseApp
+base: org.electronjs.Electron2.BaseApp
 base-version: '18.08'
 runtime: org.freedesktop.Platform
 runtime-version: '18.08'
@@ -38,16 +38,9 @@ modules:
       - type: extra-data
         only-arches:
           - x86_64
-        url: https://dl.pstmn.io/download/version/7.2.2/linux64
-        sha256: 9810b4de280e0c7107eb5b0a5ef29e6c7c93d4f807426f14b165f83a413307e2
-        size: 72896951
-        filename: Postman.tar.gz
-      - type: extra-data
-        only-arches:
-          - i386
-        url: https://dl.pstmn.io/download/version/7.2.2/linux32
-        sha256: de7eed9c3a4077916b1c15dfa2a2f96f38728d850f3f2cf853c7655f5f6edc59
-        size: 75012937
+        url: https://dl.pstmn.io/download/version/7.3.5/linux64
+        sha256: 9dc1e4954eee9a51f18816606db12fa2872f1c993f3f15abda89c3fbaaf1b478
+        size: 78172144
         filename: Postman.tar.gz
       - type: script
         dest-filename: run.sh
