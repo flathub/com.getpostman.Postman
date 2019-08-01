@@ -69,7 +69,23 @@
         </ul>
       </description>
     </release>
-    <release version="7.2.2" date="2019-06-19"/>
+    <release version="7.2.2" date="2019-06-19">
+      <description>
+        <ul>
+          <li>[GitHub #2724] - Added new code generators behind an experimental flag</li>
+          <li>[GitHub #1667] - Added support for cookie syncing via the Interceptor</li>
+          <li>Updated cURL, Swagger 2.0, OpenAPI 3.0 importer versions</li>
+          <li>[GitHub #5760] - Added fork labels in all collection listing views</li>
+          <li>[GitHub #6731] - Change Text color in no-response empty state to content-secondary</li>
+          <li>[GitHub #4751] - Fixed some performance issue to handle large response</li>
+          <li>Fixed a bug causing cookie settings in runner to not persist when rerun</li>
+          <li>[GitHub #3178] - Updated internal CSV parser to fix bugs with data files parsing in runner</li>
+          <li>[GitHub #6509] - Increased request label length in sidebar</li>
+          <li>[GitHub #6592] - Bubbled up response save error to show in UI</li>
+          <li>[GitHub #6745] - Fixed an issue where multiple accounts could not remain signed-in simultaneously</li>
+        </ul>
+      </description>
+    </release>
     <release version="7.2.0" date="2019-06-12"/>
     <release version="7.1.1" date="2019-05-20"/>
     <release version="7.1.0" date="2019-05-14"/>
