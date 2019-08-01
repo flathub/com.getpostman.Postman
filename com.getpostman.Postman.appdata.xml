@@ -159,7 +159,56 @@
         </ul>
       </description>
     </release>
-    <release version="7.0.9" date="2019-04-22"/>
+    <release version="7.0.9" date="2019-04-22">
+      <description>
+        <ul>
+          <li>[Github #3290] Added support for custom CA certificate</li>
+          <li>[GitHub #2494] Added support for PFX client certificate</li>
+          <li>[GitHub #4631] Added support for request mutation using pre-request scripts</li>
+          <li>[GitHub #3566] Added support for Proxy authentication (Basic Auth)</li>
+          <li>[GitHub #2282] Added request size details in tooltip</li>
+          <li>Added detailed timings in tooltip of response time</li>
+          <li>Added support for API Key type authentication</li>
+          <li>Users can now suggest people to be invited to their team</li>
+          <li>Improvement of UI representation of temporary headers</li>
+          <li>[GitHub #5799] Fixed a bug where interrupting the script execution crashes the App</li>
+          <li>[GitHub #4707] Fixed a bug where port 443 is not matched implicitly when using client certificates</li>
+          <li>[GitHub #3232] Fixed a bug where AWS signature was not calculated correctly</li>
+          <li>[GitHub #6174] Fixed a bug where error responses during team invite flows were not bubbled up</li>
+          <li>[GitHub #6179] Fixed a bug where Postman Runner doesn't show Pre-request script assertion results</li>
+          <li>[GitHub #5594] Fixed a bug where Test filter is not working when retrying the run in collection runner</li>
+          <li>[GitHub #6178] Fixed a bug where open tabs can't be selected in the find and replace section</li>
+          <li>[GitHub #2833] Fixed issue where Postman window opened off-screen on restoring from minimized state</li>
+          <li>[GitHub #4828] Fixed issue where Postman window was always opening in windowed mode despite closing in maximized mode</li>
+          <li>[GitHub #5639] Fixed an issue where collection gets imported multiple times when clicking Run in Postman button [Windows]</li>
+          <li>[GitHub #6239] Fixed a bug where app doesn't receive sync changes after clicking the sync icon</li>
+          <li>Fixed a bug where the sync indicator was wrong incase where sync was disabled for a user</li>
+          <li>Fixed a bug where removing a collection after creating it in the same app session was not synced</li>
+          <li>[GitHub #6144] Fixed a bug where environment values were not updated immediately after the request finishes</li>
+          <li>[GitHub #4833] Fixed a bug where add account and cancel flow did not used to load the correct window for the user</li>
+          <li>[Github #2893] Fixed a bug where examples in the original request were not copied when saving it request as new request</li>
+          <li>[GitHub #5932] Context menu does not show up in Import modal (Paste Raw Text)</li>
+          <li>Fixed UI issue in console related to clear button and search box</li>
+          <li>[GitHub #5965] Fixed a bug where App was crashing while opening another 3rd party App using custom protocol from an OAuth2 window</li>
+          <li>[GitHub #3955] Fixed some inconsistencies in rendering markdown between Postman Dashboard/Documentation and Postman App</li>
+          <li>[Github #5654] Fixed editing variables from quick look when the order of session-variable is not the same as variables</li>
+          <li>[GitHub #5690] Fixed a bug where environment dropdown on applying a filter has empty spaces/rows</li>
+          <li>Fixed a bug in request name where if the name is too large then it wraps onto multiple lines</li>
+          <li>Fixed a bug in request name where if the user has only view permissions still it is able to edit the name</li>
+          <li>[GitHub #4951] Fixed issue where a saved cookie is not removed when the cookie is updated by subdomain with a prior expiration date</li>
+          <li>[GitHub #3565] Fixed issue where user cannot edit cookies with same name under the same domain but has different path</li>
+          <li>[GitHub #5518] Fixed example title is too short in the dropdown list of examples issue</li>
+          <li>[GitHub #2940] Fixed a bug where highlighting text while renaming request in Sidebar drags the whole request</li>
+          <li>[GitHub #6292] Fixed a bug where example response preview sections was not working</li>
+          <li>[GitHub #5758] Fixed a bug where selection focus is lost from request URL when path variables are removed</li>
+          <li>[GitHub #5034] Fixed a bug where in Linux the temporary files created after an update were not being cleaned up</li>
+          <li>Added UI feedback states when setting up account after signing in. Without this, quitting the app might cause corrupt data</li>
+          <li>[GitHub #4613] Fixed issue regarding correctly focusing the requester window when user tries to create another app instance</li>
+          <li>Fixed focussing issue related to the search box inside the text editor</li>
+          <li>Fix for no-cache and postman-token settings</li>
+        </ul>
+      </description>
+    </release>
     <release version="7.0.7" date="2019-03-29"/>
     <release version="7.0.6" date="2019-03-13"/>
     <release version="6.7.4" date="2019-02-26"/>
