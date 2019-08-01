@@ -31,6 +31,44 @@
         </ul>
       </description>
     </release>
+    <release version="7.3.4" date="2019-07-19">
+      <description>
+        <ul>
+          <li>Discontinue support for 32-bit Linux</li>
+          <li>[GitHub #6595] - Improved pm.variables.has method to search in all the scopes</li>
+          <li>[GitHub #6699] - Updated response viewer to show headers in a tabular view</li>
+          <li>[GitHub #6414] - Updated request headers to be title case for consistency</li>
+          <li>Updated response-viewer to show different stages of request accurately</li>
+          <li>This release replaces the rich editor used for displaying the response from Ace Editor to Monaco editor</li>
+          <li>In addition to changing the editor for the response section, the pretty view no longer does transformations on the response text. All transformations are handled as text formatters inside the editor</li>
+          <li>Combined, these two above changes give better performance, reduced memory footprint and remove bugs in response pretty view</li>
+          <li>[GitHub #4721] - Fixed an issue where app crashed on de-structured usage of pm assertions</li>
+          <li>[GitHub #4591] - Fixed an issue where collection runner was not identifying JSON format when selecting data file</li>
+          <li>[GitHub #5381] - Fixed an issue where export collection dialogue breaks on expanding (macOS)</li>
+          <li>[GitHub #4412] - Fixed an issue where loader window was not appearing centered on using multiple monitors on Linux</li>
+          <li>[GitHub #6784] - Fixed a bug where parsing CSV file containing double quotes as escape character caused error</li>
+          <li>[GitHub #6752] - Fix a bug causing app to crash when form-data has malformed file value</li>
+          <li>[GitHub #6140] - Fixed a bug where multipart/form-data boundary was inconsistent for digest auth</li>
+          <li>[GitHub #6651] - Fixed a bug where pm.sendRequest crashes the app for the non-string raw body</li>
+          <li>[GitHub #6761] - Fixed a bug causing non utf8 charset responses to not show in the response-viewer</li>
+          <li>[GitHub #6764] - Fixed a bug where using quotes inside unquoted csv field caused error</li>
+          <li>[GitHub #6730] - Fixed a bug where collection export was not working when example request was empty</li>
+          <li>[GitHub #6754] - Fixed a bug where undo history was reset after performing a beautify action</li>
+          <li>[GitHub #1465] - Fixed a bug where floating point numbers were rounded off in response pretty view</li>
+          <li>[GitHub #5712] - Fixed a bug where JSON response pretty view removed extra characters surrounding the JSON text</li>
+          <li>[GitHub #6150] - Fixed a bug where emoji in response viewer caused uneven line heights</li>
+          <li>[GitHub #6103] - Fixed a bug where search pop-up would hide the scrollbar in response pretty view</li>
+          <li>[GitHub #6807] - Fixed a bug where cookies were not stored when the cookie path did not match the request path</li>
+          <li>[GitHub #6767] - Fixed an issue where collection sidebar history items did not have pointer cursor on hover</li>
+          <li>[GitHub #6860] - Fixed a bug where links in response viewer were encoded when opened in a Tab</li>
+          <li>[GitHub #6891] - Fixed a bug in Examples causing editor to beautify on every key-stroke</li>
+          <li>[GitHub #6932] - Fixed an issue where app was opening only once by clicking on "Run in Postman" button and not launching again.</li>
+          <li>[GitHub #6886] - Fixed an issue where requests sent to servers that use TLS renegotiation were not working</li>
+          <li>[GitHub #6895] - Fixed issue where OAuth2 window was showing blank screen on requesting token</li>
+          <li>[GitHub #6887] - Fixed a bug where changing the response language was not formatting correctly</li>
+        </ul>
+      </description>
+    </release>
     <release version="7.2.2" date="2019-06-19"/>
     <release version="7.2.0" date="2019-06-12"/>
     <release version="7.1.1" date="2019-05-20"/>
