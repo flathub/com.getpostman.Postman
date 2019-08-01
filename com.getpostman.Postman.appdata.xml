@@ -209,7 +209,13 @@
         </ul>
       </description>
     </release>
-    <release version="7.0.7" date="2019-03-29"/>
+    <release version="7.0.7" date="2019-03-29">
+      <description>
+        <ul>
+            <li>[GitHub#6093] Fixed a bug where raw body was not synced correctly for history requests</li>
+        </ul>
+      </description>
+    </release>
     <release version="7.0.6" date="2019-03-13"/>
     <release version="6.7.4" date="2019-02-26"/>
     <release version="6.7.3" date="2019-02-01"/>
