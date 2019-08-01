@@ -86,7 +86,30 @@
         </ul>
       </description>
     </release>
-    <release version="7.2.0" date="2019-06-12"/>
+    <release version="7.2.0" date="2019-06-12">
+      <description>
+        <ul>
+          <li>[GitHub #5671] - Fixed a bug where browse view History items are unclickable</li>
+          <li>[GitHub #6494] - Fixed a bug where workspace delete modal does not show thumbnail in the collection runner</li>
+          <li>Fixed a bug where long collection name breaks UI in collection browser and add folder modal</li>
+          <li>Fixed an issue where key value editors have inconsistent borders and overlaps with borders of 2 pane view</li>
+          <li>Fixed a bug where upgrade button did not refresh to team button on plan upgrade</li>
+          <li>[GitHub #5916] - Fixed a bug where app was crashing due to client certificate password mismatch</li>
+          <li>[GitHub #2427] - Fixed a bug where URL path variables were not parsed correctly</li>
+          <li>[GitHub #6537] - Fixed a bug where params with empty keys were getting filtered</li>
+          <li>[GitHub #6533] - Fixed a bug where invalid url crashes the app</li>
+          <li>[GitHub #5992] - Fixed an issue where the request URL is shown instead of request name when trying to save the request to another collection</li>
+          <li>[GitHub #6344] - Added password masking to client certificate passphrase</li>
+          <li>Revised placeholder copy for adding a description</li>
+          <li>Removed `last modified just now` from collection browser</li>
+          <li>Fixed an issue where description support markdown does not link to any documentation.</li>
+          <li>Invite multiple users by uploading .txt or .csv files</li>
+          <li>[GitHub #1669] - Added support for GraphQL request and schemas</li>
+          <li>[GitHub #6360] - Updated collection runner to support selecting and reordering requests/folders before run</li>
+          <li>[GitHub #971] - Added faker library support to add `$random*` dynamic variables</li>
+        </ul>
+      </description>
+    </release>
     <release version="7.1.1" date="2019-05-20"/>
     <release version="7.1.0" date="2019-05-14"/>
     <release version="7.0.9" date="2019-04-22"/>
