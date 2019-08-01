@@ -121,7 +121,44 @@
         </ul>
       </description>
     </release>
-    <release version="7.1.0" date="2019-05-14"/>
+    <release version="7.1.0" date="2019-05-14">
+      <description>
+        <ul>
+          <li>Introducing APIs in Postman</li>
+          <li>Create APIs directly within the Postman desktop or web app</li>
+          <li>Add and edit your schemas, and generate collections from them at the click of a button</li>
+          <li>Link related entities such as collections, environments, mock servers and monitors to APIs</li>
+          <li>Version your APIs, and tag collections under them to keep track of changes</li>
+          <li>Mock, document, monitor and publish multiple versions of your API simultaneously using tagged revisions of collections</li>
+          <li>[GitHub #4320] Improved the ability to work with files and fixed issues around file exports</li>
+          <li>[GitHub #1228] Added support for cookie control in collection runner</li>
+          <li>[GitHub #4842] Added support for accessing cookies in `pm.sendRequest`</li>
+          <li>[GitHub #2458] Added support for payload hash in Hawk authentication</li>
+          <li>Signing out now warns you if you have any unsynced changes</li>
+          <li>You can now close the last open tab in a workspace</li>
+          <li>Added support for adding asynchronous tests when using `pm.test` by passing `done` callback</li>
+          <li>[GitHub #6378] Fixed a bug where group history delete action used to crash the app</li>
+          <li>[GitHub #3281] Fixed a bug where quotes get encoded in query parameters</li>
+          <li>[GitHub #5860] Fixed a bug where cookies are not saved for IPv6 addresses</li>
+          <li>[GitHub #5753] Fixed a bug where pm.sendRequest cookies are not saved in app</li>
+          <li>[GitHub #6431] Fixed a bug where team notifications were not shown in the same app session where the team was created</li>
+          <li>[GitHub #5074] Fixed a bug where sometimes the request count in the collection was different from the actual number of requests shown</li>
+          <li>[GitHub #5524] Fixed a bug where folders with invalid references to requests were not allowed to be deleted or duplicated</li>
+          <li>[GitHub #4840] Fixed a bug where dragging a duplicate key inside environments modal is dragging 2 rows with it</li>
+          <li>[GitHub #5545] Fixed a bug where markdown renders with incorrect spacing</li>
+          <li>[GitHub #5226] Fixed a bug where next and previous buttons in ace editor search box work exactly opposite to intended functionality</li>
+          <li>[GitHub #5613] Fixed a bug where after saving the request the first duplicate key in query params is deleted</li>
+          <li>[GitHub #5245] Fixed a bug where the last user in team workspace doesn't see a proper error message in toasts while leaving workspace</li>
+          <li>[GitHub #6063] Fixed a bug where method name not showing up for older history in browse mode</li>
+          <li>[Github #5558] Fixed an issue where Postman was getting set as the default app to handle HTML files on Linux</li>
+          <li>[Github #6362] Fixed an issue where editing the description of a variable via the environment quick look also edits the description of other variables</li>
+          <li>Fixed issues while importing Postman data dumps</li>
+          <li>Various bugfixes in the OpenAPI 3.0 importer</li>
+          <li>Fixed URL encoding issues while calculating payload hash in multiple authorizer modules</li>
+          <li>Fixed a bug where the request body button types are not vertically aligned in the center</li>
+        </ul>
+      </description>
+    </release>
     <release version="7.0.9" date="2019-04-22"/>
     <release version="7.0.7" date="2019-03-29"/>
     <release version="7.0.6" date="2019-03-13"/>
