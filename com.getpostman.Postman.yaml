@@ -42,13 +42,6 @@ modules:
         sha256: 9dc1e4954eee9a51f18816606db12fa2872f1c993f3f15abda89c3fbaaf1b478
         size: 78172144
         filename: Postman.tar.gz
-      - type: extra-data
-        only-arches:
-          - i386
-        url: https://dl.pstmn.io/download/version/7.2.2/linux32
-        sha256: de7eed9c3a4077916b1c15dfa2a2f96f38728d850f3f2cf853c7655f5f6edc59
-        size: 75012937
-        filename: Postman.tar.gz
       - type: script
         dest-filename: run.sh
         commands:
