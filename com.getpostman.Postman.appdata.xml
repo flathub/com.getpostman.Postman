@@ -246,7 +246,15 @@
         </ul>
       </description>
     </release>
-    <release version="6.7.4" date="2019-02-26"/>
+    <release version="6.7.4" date="2019-02-26">
+      <description>
+        <ul>
+          <li>Added support for disabling keyboard shortcuts [GitHub #2707]</li>
+          <li>Fixed an issue that caused file path to disappear while reordering form-data fields [GitHub #2651]</li>
+          <li>Fixed an issue that caused errors with self signed SSL certificates in OAuth2 [GitHub #5819]</li>
+        </ul>
+      </description>
+    </release>
     <release version="6.7.3" date="2019-02-01"/>
     <release version="6.7.2" date="2019-01-22"/>
     <release version="6.7.1" date="2019-01-10"/>
