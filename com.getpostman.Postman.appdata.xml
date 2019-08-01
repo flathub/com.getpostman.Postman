@@ -24,7 +24,13 @@
   </screenshots>
   <url type="homepage">https://www.getpostman.com</url>
   <releases>
-    <release version="7.3.5" date="2019-07-31"/>
+    <release version="7.3.5" date="2019-07-31">
+      <description>
+        <ul>
+          <li>[GitHub #7001] - Fixed an issue where SSO login was not working for Enterprise login</li>
+        </ul>
+      </description>
+    </release>
     <release version="7.2.2" date="2019-06-19"/>
     <release version="7.2.0" date="2019-06-12"/>
     <release version="7.1.1" date="2019-05-20"/>
