@@ -216,7 +216,36 @@
         </ul>
       </description>
     </release>
-    <release version="7.0.6" date="2019-03-13"/>
+    <release version="7.0.6" date="2019-03-13">
+      <description>
+        <ul>
+          <li>v7.0 rolls out a new system for managing roles and permissions that will help make sure everyone on your team can access to what they need. [See how the new roles and permissions work](https://go.pstmn.io/docs-roles-permissions)</li>
+          <li>Better experience while sharing collections</li>
+          <li>Workspaces sync more quickly</li>
+          <li>Learning Centre is now called Bootcamp. And now it also shows up in a tab too. New name, new home.</li>
+          <li>[GitHub #5096] Fixed issue regarding visualisation of x-www-form-urlencoded parameters in Postman console</li>
+          <li>[GitHub #5188] Show year in collection activity feed</li>
+          <li>[GitHub #5409] Fixed console not opening on switching accounts</li>
+          <li>[GitHub #5505] Fixed toggling sidebar via keyboard doesn't change 'Show/Hide Sidebar' button state</li>
+          <li>[GitHub #5207] Fixed rendering of disabled body parameters in Postman console</li>
+          <li>[GitHub #5306] Fixed an issue where falsy values were not rendered in Postman console</li>
+          <li>[GitHub #5743] Fixed the issue of Postman console removing extra whitespaces from the string</li>
+          <li>[GitHub #3350] Added titles for path variables and query params</li>
+          <li>[GitHub #1104] Content-Type support for form-data multipart</li>
+          <li>[GitHub #5276] Fixed collection description value and width in edit mode (Collection Browser)</li>
+          <li>[GitHub #3302] Fixed rendering of disabled headers in Postman console</li>
+          <li>[GitHub #5490] Bug fix for search results in collection selector UI</li>
+          <li>[GitHub #4894] Fixed an issue where the tooltip for system generated headers blocks the header-value</li>
+          <li>[GitHub #5358] Fixed an issue where console search field is not allowing users to paste copied text through mouse.</li>
+          <li>[GitHub #5726] Clearing history in the App deletes only those on Sync</li>
+          <li>[Github #5840] Fixed a bug where requests did not open in tab properly</li>
+          <li>[Github #5585] Fixed a bug where http version for code generation was appending undefined</li>
+          <li>Fixed Response Cookie Expiration Date not showing</li>
+          <li>Add word break for long response header values</li>
+          <li>Fixed the issue of wrong pathname being displayed in Postman console</li>
+        </ul>
+      </description>
+    </release>
     <release version="6.7.4" date="2019-02-26"/>
     <release version="6.7.3" date="2019-02-01"/>
     <release version="6.7.2" date="2019-01-22"/>
