@@ -219,7 +219,7 @@
     <release version="7.0.6" date="2019-03-13">
       <description>
         <ul>
-          <li>v7.0 rolls out a new system for managing roles and permissions that will help make sure everyone on your team can access to what they need. [See how the new roles and permissions work](https://go.pstmn.io/docs-roles-permissions)</li>
+          <li>v7.0 rolls out a new system for managing roles and permissions that will help make sure everyone on your team can access to what they need.</li>
           <li>Better experience while sharing collections</li>
           <li>Workspaces sync more quickly</li>
           <li>Learning Centre is now called Bootcamp. And now it also shows up in a tab too. New name, new home.</li>
