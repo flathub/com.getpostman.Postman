@@ -25,234 +25,45 @@
   </screenshots>
   <url type="homepage">https://www.getpostman.com</url>
   <releases>
-    <release version="7.3.5" date="2019-07-31">
+    <release version="7.6.0" date="2019-08-29">
       <description>
         <ul>
-          <li>[GitHub #7001] - Fixed an issue where SSO login was not working for Enterprise login</li>
-        </ul>
-      </description>
-    </release>
-    <release version="7.3.4" date="2019-07-19">
-      <description>
-        <ul>
-          <li>Discontinue support for 32-bit Linux</li>
-          <li>[GitHub #6595] - Improved pm.variables.has method to search in all the scopes</li>
-          <li>[GitHub #6699] - Updated response viewer to show headers in a tabular view</li>
-          <li>[GitHub #6414] - Updated request headers to be title case for consistency</li>
-          <li>Updated response-viewer to show different stages of request accurately</li>
-          <li>This release replaces the rich editor used for displaying the response from Ace Editor to Monaco editor</li>
-          <li>In addition to changing the editor for the response section, the pretty view no longer does transformations on the response text. All transformations are handled as text formatters inside the editor</li>
-          <li>Combined, these two above changes give better performance, reduced memory footprint and remove bugs in response pretty view</li>
-          <li>[GitHub #4721] - Fixed an issue where app crashed on de-structured usage of pm assertions</li>
-          <li>[GitHub #4591] - Fixed an issue where collection runner was not identifying JSON format when selecting data file</li>
-          <li>[GitHub #5381] - Fixed an issue where export collection dialogue breaks on expanding (macOS)</li>
-          <li>[GitHub #4412] - Fixed an issue where loader window was not appearing centered on using multiple monitors on Linux</li>
-          <li>[GitHub #6784] - Fixed a bug where parsing CSV file containing double quotes as escape character caused error</li>
-          <li>[GitHub #6752] - Fix a bug causing app to crash when form-data has malformed file value</li>
-          <li>[GitHub #6140] - Fixed a bug where multipart/form-data boundary was inconsistent for digest auth</li>
-          <li>[GitHub #6651] - Fixed a bug where pm.sendRequest crashes the app for the non-string raw body</li>
-          <li>[GitHub #6761] - Fixed a bug causing non utf8 charset responses to not show in the response-viewer</li>
-          <li>[GitHub #6764] - Fixed a bug where using quotes inside unquoted csv field caused error</li>
-          <li>[GitHub #6730] - Fixed a bug where collection export was not working when example request was empty</li>
-          <li>[GitHub #6754] - Fixed a bug where undo history was reset after performing a beautify action</li>
-          <li>[GitHub #1465] - Fixed a bug where floating point numbers were rounded off in response pretty view</li>
-          <li>[GitHub #5712] - Fixed a bug where JSON response pretty view removed extra characters surrounding the JSON text</li>
-          <li>[GitHub #6150] - Fixed a bug where emoji in response viewer caused uneven line heights</li>
-          <li>[GitHub #6103] - Fixed a bug where search pop-up would hide the scrollbar in response pretty view</li>
-          <li>[GitHub #6807] - Fixed a bug where cookies were not stored when the cookie path did not match the request path</li>
-          <li>[GitHub #6767] - Fixed an issue where collection sidebar history items did not have pointer cursor on hover</li>
-          <li>[GitHub #6860] - Fixed a bug where links in response viewer were encoded when opened in a Tab</li>
-          <li>[GitHub #6891] - Fixed a bug in Examples causing editor to beautify on every key-stroke</li>
-          <li>[GitHub #6932] - Fixed an issue where app was opening only once by clicking on "Run in Postman" button and not launching again.</li>
-          <li>[GitHub #6886] - Fixed an issue where requests sent to servers that use TLS renegotiation were not working</li>
-          <li>[GitHub #6895] - Fixed issue where OAuth2 window was showing blank screen on requesting token</li>
-          <li>[GitHub #6887] - Fixed a bug where changing the response language was not formatting correctly</li>
-        </ul>
-      </description>
-    </release>
-    <release version="7.2.2" date="2019-06-19">
-      <description>
-        <ul>
-          <li>[GitHub #2724] - Added new code generators behind an experimental flag</li>
-          <li>[GitHub #1667] - Added support for cookie syncing via the Interceptor</li>
-          <li>Updated cURL, Swagger 2.0, OpenAPI 3.0 importer versions</li>
-          <li>[GitHub #5760] - Added fork labels in all collection listing views</li>
-          <li>[GitHub #6731] - Change Text color in no-response empty state to content-secondary</li>
-          <li>[GitHub #4751] - Fixed some performance issue to handle large response</li>
-          <li>Fixed a bug causing cookie settings in runner to not persist when rerun</li>
-          <li>[GitHub #3178] - Updated internal CSV parser to fix bugs with data files parsing in runner</li>
-          <li>[GitHub #6509] - Increased request label length in sidebar</li>
-          <li>[GitHub #6592] - Bubbled up response save error to show in UI</li>
-          <li>[GitHub #6745] - Fixed an issue where multiple accounts could not remain signed-in simultaneously</li>
-        </ul>
-      </description>
-    </release>
-    <release version="7.2.0" date="2019-06-12">
-      <description>
-        <ul>
-          <li>[GitHub #5671] - Fixed a bug where browse view History items are unclickable</li>
-          <li>[GitHub #6494] - Fixed a bug where workspace delete modal does not show thumbnail in the collection runner</li>
-          <li>Fixed a bug where long collection name breaks UI in collection browser and add folder modal</li>
-          <li>Fixed an issue where key value editors have inconsistent borders and overlaps with borders of 2 pane view</li>
-          <li>Fixed a bug where upgrade button did not refresh to team button on plan upgrade</li>
-          <li>[GitHub #5916] - Fixed a bug where app was crashing due to client certificate password mismatch</li>
-          <li>[GitHub #2427] - Fixed a bug where URL path variables were not parsed correctly</li>
-          <li>[GitHub #6537] - Fixed a bug where params with empty keys were getting filtered</li>
-          <li>[GitHub #6533] - Fixed a bug where invalid url crashes the app</li>
-          <li>[GitHub #5992] - Fixed an issue where the request URL is shown instead of request name when trying to save the request to another collection</li>
-          <li>[GitHub #6344] - Added password masking to client certificate passphrase</li>
-          <li>Revised placeholder copy for adding a description</li>
-          <li>Removed `last modified just now` from collection browser</li>
-          <li>Fixed an issue where description support markdown does not link to any documentation.</li>
-          <li>Invite multiple users by uploading .txt or .csv files</li>
-          <li>[GitHub #1669] - Added support for GraphQL request and schemas</li>
-          <li>[GitHub #6360] - Updated collection runner to support selecting and reordering requests/folders before run</li>
-          <li>[GitHub #971] - Added faker library support to add `$random*` dynamic variables</li>
-        </ul>
-      </description>
-    </release>
-    <release version="7.1.1" date="2019-05-20">
-      <description>
-        <ul>
-          <li>[GitHub #6524] Fixed a bug where search in the sidebar would continue to show results from previous search results</li>
-          <li>[GitHub #6505] Fixed a bug where workspace collections view in browse mode was crashing if collection owner account was deleted</li>
-          <li>[GitHub #6527] Fixed a bug where users were unable to open a new tab on clicking plus icon in some flows</li>
-          <li>[Github #6534] Fixed a bug where users were unable to send files while sending requests</li>
-          <li>[GitHub #6364] Fixed a bug that caused proxy matching for URL with ports to fail</li>
-        </ul>
-      </description>
-    </release>
-    <release version="7.1.0" date="2019-05-14">
-      <description>
-        <ul>
-          <li>Introducing APIs in Postman</li>
-          <li>Create APIs directly within the Postman desktop or web app</li>
-          <li>Add and edit your schemas, and generate collections from them at the click of a button</li>
-          <li>Link related entities such as collections, environments, mock servers and monitors to APIs</li>
-          <li>Version your APIs, and tag collections under them to keep track of changes</li>
-          <li>Mock, document, monitor and publish multiple versions of your API simultaneously using tagged revisions of collections</li>
-          <li>[GitHub #4320] Improved the ability to work with files and fixed issues around file exports</li>
-          <li>[GitHub #1228] Added support for cookie control in collection runner</li>
-          <li>[GitHub #4842] Added support for accessing cookies in `pm.sendRequest`</li>
-          <li>[GitHub #2458] Added support for payload hash in Hawk authentication</li>
-          <li>Signing out now warns you if you have any unsynced changes</li>
-          <li>You can now close the last open tab in a workspace</li>
-          <li>Added support for adding asynchronous tests when using `pm.test` by passing `done` callback</li>
-          <li>[GitHub #6378] Fixed a bug where group history delete action used to crash the app</li>
-          <li>[GitHub #3281] Fixed a bug where quotes get encoded in query parameters</li>
-          <li>[GitHub #5860] Fixed a bug where cookies are not saved for IPv6 addresses</li>
-          <li>[GitHub #5753] Fixed a bug where pm.sendRequest cookies are not saved in app</li>
-          <li>[GitHub #6431] Fixed a bug where team notifications were not shown in the same app session where the team was created</li>
-          <li>[GitHub #5074] Fixed a bug where sometimes the request count in the collection was different from the actual number of requests shown</li>
-          <li>[GitHub #5524] Fixed a bug where folders with invalid references to requests were not allowed to be deleted or duplicated</li>
-          <li>[GitHub #4840] Fixed a bug where dragging a duplicate key inside environments modal is dragging 2 rows with it</li>
-          <li>[GitHub #5545] Fixed a bug where markdown renders with incorrect spacing</li>
-          <li>[GitHub #5226] Fixed a bug where next and previous buttons in ace editor search box work exactly opposite to intended functionality</li>
-          <li>[GitHub #5613] Fixed a bug where after saving the request the first duplicate key in query params is deleted</li>
-          <li>[GitHub #5245] Fixed a bug where the last user in team workspace doesn't see a proper error message in toasts while leaving workspace</li>
-          <li>[GitHub #6063] Fixed a bug where method name not showing up for older history in browse mode</li>
-          <li>[Github #5558] Fixed an issue where Postman was getting set as the default app to handle HTML files on Linux</li>
-          <li>[Github #6362] Fixed an issue where editing the description of a variable via the environment quick look also edits the description of other variables</li>
-          <li>Fixed issues while importing Postman data dumps</li>
-          <li>Various bugfixes in the OpenAPI 3.0 importer</li>
-          <li>Fixed URL encoding issues while calculating payload hash in multiple authorizer modules</li>
-          <li>Fixed a bug where the request body button types are not vertically aligned in the center</li>
-        </ul>
-      </description>
-    </release>
-    <release version="7.0.9" date="2019-04-22">
-      <description>
-        <ul>
-          <li>[Github #3290] Added support for custom CA certificate</li>
-          <li>[GitHub #2494] Added support for PFX client certificate</li>
-          <li>[GitHub #4631] Added support for request mutation using pre-request scripts</li>
-          <li>[GitHub #3566] Added support for Proxy authentication (Basic Auth)</li>
-          <li>[GitHub #2282] Added request size details in tooltip</li>
-          <li>Added detailed timings in tooltip of response time</li>
-          <li>Added support for API Key type authentication</li>
-          <li>Users can now suggest people to be invited to their team</li>
-          <li>Improvement of UI representation of temporary headers</li>
-          <li>[GitHub #5799] Fixed a bug where interrupting the script execution crashes the App</li>
-          <li>[GitHub #4707] Fixed a bug where port 443 is not matched implicitly when using client certificates</li>
-          <li>[GitHub #3232] Fixed a bug where AWS signature was not calculated correctly</li>
-          <li>[GitHub #6174] Fixed a bug where error responses during team invite flows were not bubbled up</li>
-          <li>[GitHub #6179] Fixed a bug where Postman Runner doesn't show Pre-request script assertion results</li>
-          <li>[GitHub #5594] Fixed a bug where Test filter is not working when retrying the run in collection runner</li>
-          <li>[GitHub #6178] Fixed a bug where open tabs can't be selected in the find and replace section</li>
-          <li>[GitHub #2833] Fixed issue where Postman window opened off-screen on restoring from minimized state</li>
-          <li>[GitHub #4828] Fixed issue where Postman window was always opening in windowed mode despite closing in maximized mode</li>
-          <li>[GitHub #5639] Fixed an issue where collection gets imported multiple times when clicking Run in Postman button [Windows]</li>
-          <li>[GitHub #6239] Fixed a bug where app doesn't receive sync changes after clicking the sync icon</li>
-          <li>Fixed a bug where the sync indicator was wrong incase where sync was disabled for a user</li>
-          <li>Fixed a bug where removing a collection after creating it in the same app session was not synced</li>
-          <li>[GitHub #6144] Fixed a bug where environment values were not updated immediately after the request finishes</li>
-          <li>[GitHub #4833] Fixed a bug where add account and cancel flow did not used to load the correct window for the user</li>
-          <li>[Github #2893] Fixed a bug where examples in the original request were not copied when saving it request as new request</li>
-          <li>[GitHub #5932] Context menu does not show up in Import modal (Paste Raw Text)</li>
-          <li>Fixed UI issue in console related to clear button and search box</li>
-          <li>[GitHub #5965] Fixed a bug where App was crashing while opening another 3rd party App using custom protocol from an OAuth2 window</li>
-          <li>[GitHub #3955] Fixed some inconsistencies in rendering markdown between Postman Dashboard/Documentation and Postman App</li>
-          <li>[Github #5654] Fixed editing variables from quick look when the order of session-variable is not the same as variables</li>
-          <li>[GitHub #5690] Fixed a bug where environment dropdown on applying a filter has empty spaces/rows</li>
-          <li>Fixed a bug in request name where if the name is too large then it wraps onto multiple lines</li>
-          <li>Fixed a bug in request name where if the user has only view permissions still it is able to edit the name</li>
-          <li>[GitHub #4951] Fixed issue where a saved cookie is not removed when the cookie is updated by subdomain with a prior expiration date</li>
-          <li>[GitHub #3565] Fixed issue where user cannot edit cookies with same name under the same domain but has different path</li>
-          <li>[GitHub #5518] Fixed example title is too short in the dropdown list of examples issue</li>
-          <li>[GitHub #2940] Fixed a bug where highlighting text while renaming request in Sidebar drags the whole request</li>
-          <li>[GitHub #6292] Fixed a bug where example response preview sections was not working</li>
-          <li>[GitHub #5758] Fixed a bug where selection focus is lost from request URL when path variables are removed</li>
-          <li>[GitHub #5034] Fixed a bug where in Linux the temporary files created after an update were not being cleaned up</li>
-          <li>Added UI feedback states when setting up account after signing in. Without this, quitting the app might cause corrupt data</li>
-          <li>[GitHub #4613] Fixed issue regarding correctly focusing the requester window when user tries to create another app instance</li>
-          <li>Fixed focussing issue related to the search box inside the text editor</li>
-          <li>Fix for no-cache and postman-token settings</li>
-        </ul>
-      </description>
-    </release>
-    <release version="7.0.7" date="2019-03-29">
-      <description>
-        <ul>
-            <li>[GitHub#6093] Fixed a bug where raw body was not synced correctly for history requests</li>
-        </ul>
-      </description>
-    </release>
-    <release version="7.0.6" date="2019-03-13">
-      <description>
-        <ul>
-          <li>v7.0 rolls out a new system for managing roles and permissions that will help make sure everyone on your team can access to what they need.</li>
-          <li>Better experience while sharing collections</li>
-          <li>Workspaces sync more quickly</li>
-          <li>Learning Centre is now called Bootcamp. And now it also shows up in a tab too. New name, new home.</li>
-          <li>[GitHub #5096] Fixed issue regarding visualisation of x-www-form-urlencoded parameters in Postman console</li>
-          <li>[GitHub #5188] Show year in collection activity feed</li>
-          <li>[GitHub #5409] Fixed console not opening on switching accounts</li>
-          <li>[GitHub #5505] Fixed toggling sidebar via keyboard doesn't change 'Show/Hide Sidebar' button state</li>
-          <li>[GitHub #5207] Fixed rendering of disabled body parameters in Postman console</li>
-          <li>[GitHub #5306] Fixed an issue where falsy values were not rendered in Postman console</li>
-          <li>[GitHub #5743] Fixed the issue of Postman console removing extra whitespaces from the string</li>
-          <li>[GitHub #3350] Added titles for path variables and query params</li>
-          <li>[GitHub #1104] Content-Type support for form-data multipart</li>
-          <li>[GitHub #5276] Fixed collection description value and width in edit mode (Collection Browser)</li>
-          <li>[GitHub #3302] Fixed rendering of disabled headers in Postman console</li>
-          <li>[GitHub #5490] Bug fix for search results in collection selector UI</li>
-          <li>[GitHub #4894] Fixed an issue where the tooltip for system generated headers blocks the header-value</li>
-          <li>[GitHub #5358] Fixed an issue where console search field is not allowing users to paste copied text through mouse.</li>
-          <li>[GitHub #5726] Clearing history in the App deletes only those on Sync</li>
-          <li>[Github #5840] Fixed a bug where requests did not open in tab properly</li>
-          <li>[Github #5585] Fixed a bug where http version for code generation was appending undefined</li>
-          <li>Fixed Response Cookie Expiration Date not showing</li>
-          <li>Add word break for long response header values</li>
-          <li>Fixed the issue of wrong pathname being displayed in Postman console</li>
-        </ul>
-      </description>
-    </release>
-    <release version="6.7.4" date="2019-02-26">
-      <description>
-        <ul>
-          <li>Added support for disabling keyboard shortcuts [GitHub #2707]</li>
-          <li>Fixed an issue that caused file path to disappear while reordering form-data fields [GitHub #2651]</li>
-          <li>Fixed an issue that caused errors with self signed SSL certificates in OAuth2 [GitHub #5819]</li>
+          <li>[GitHub #7032] - Fixed an issue where OAuth2 was not working for callback URLs with custom protocol</li>
+          <li>[GitHub #6989] - Fixed an issue where labels in Tab Actions dropdown were breaking due to longer shortcuts on Windows</li>
+          <li>[GitHub #6805] - Changed Licences to Licenses in About tab of Settings modal</li>
+          <li>Fixed a bug where wrong error message is displayed while generating link for inviting users.</li>
+          <li>Fixed a bug where on opening environments from browse view used to lead to a broken link.</li>
+          <li>Disabled all actions on workspaces in runner's workspace switcher.</li>
+          <li>[GitHub #6980] - Fixed an issue causing scroll issues when having multiple iteration in Runner Results</li>
+          <li>[GitHub #5251] - Fixed issue in Manage cookies modal where delete domain action collapses the domain accordion</li>
+          <li>[GitHub #5762] - Suppress bad string error for variables in JSON Example response</li>
+          <li>[GitHub #5711] - Fixed a bug where browse mode shows no environments for workspace, after duplicating an environment</li>
+          <li>[GitHub #5259] - Fixed a bug in console where only the last value of params with same keys was logged</li>
+          <li>[GitHub #6783] - Fix a bug where errors were not shown in console for raw mode</li>
+          <li>[GitHub #6662] - Fixed a bug where form data file reference was lost after saving a request to collection</li>
+          <li>[GitHub #6868] - Fixed a bug where GraphQL request was getting stuck with AWS and Hawk authentication</li>
+          <li>Fixed a bug where runner data import preview was not showing false boolean values</li>
+          <li>[GitHub #6923] - Fixed a bug where image was not detected in response body</li>
+          <li>[GitHub #7008] - Fixed a bug where runner would not recognize extensions for data files</li>
+          <li>[GitHub #6110] - Fixed the export issue in Collection Runner</li>
+          <li>[GitHub #6837] - Fixed a bug where object was shown as [object Object] in runner file preview</li>
+          <li>[GitHub #6961] - Added a deleted state for Runner when a collection is modified</li>
+          <li>[GitHub #6463] - Stopped syncing and saving of large examples (above 5Mb)</li>
+          <li>Update messaging around working-directory setting</li>
+          <li>[GitHub #6765] - Modified behaviour of $randomPhoneNumber and added $randomPhoneNumberExt</li>
+          <li>[GitHub #2922] - Added support for variable substitution using `replaceIn` method</li>
+          <li>[GitHub #6641] - Added HTTP version in raw mode console logs for requests</li>
+          <li>Added info button in response headers UI explaining purpose of each header</li>
+          <li>[GitHub #3525] - Add variable resolution in OAuth2 authorization token name</li>
+          <li>Added Multi Select and Bulk Actions in Runner</li>
+          <li>Added ESC key shortcut to close right overlay modal in API tab</li>
+          <li>[GitHub #4133] - Added C, PHP pecl_http, Python http.client, Httpie modes to the experimental codegen feature</li>
+          <li>[GitHub #2638] - Modified resolution of all *.localhost addresses to 127.0.0.1</li>
+          <li>[GitHub #3312] - Added support for programmatic cookie access via scripts</li>
+          <li>Create mock-server/monitor and add to the API in API tab</li>
+          <li>Add collection to the API as documentation or test while generating collection from schema</li>
+          <li>Add collection to the API as documentation or test while adding version tag from collection changelog</li>
+          <li>Realtime Collaboration in API Dev Platform</li>
         </ul>
       </description>
     </release>
