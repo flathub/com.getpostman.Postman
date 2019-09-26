@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <component type="desktop">
   <id>com.getpostman.Postman</id>
   <metadata_license>CC0-1.0</metadata_license>
@@ -25,48 +25,7 @@
   </screenshots>
   <url type="homepage">https://www.getpostman.com</url>
   <releases>
-    <release version="7.6.0" date="2019-08-29">
-      <description>
-        <ul>
-          <li>[GitHub #7032] - Fixed an issue where OAuth2 was not working for callback URLs with custom protocol</li>
-          <li>[GitHub #6989] - Fixed an issue where labels in Tab Actions dropdown were breaking due to longer shortcuts on Windows</li>
-          <li>[GitHub #6805] - Changed Licences to Licenses in About tab of Settings modal</li>
-          <li>Fixed a bug where wrong error message is displayed while generating link for inviting users.</li>
-          <li>Fixed a bug where on opening environments from browse view used to lead to a broken link.</li>
-          <li>Disabled all actions on workspaces in runner's workspace switcher.</li>
-          <li>[GitHub #6980] - Fixed an issue causing scroll issues when having multiple iteration in Runner Results</li>
-          <li>[GitHub #5251] - Fixed issue in Manage cookies modal where delete domain action collapses the domain accordion</li>
-          <li>[GitHub #5762] - Suppress bad string error for variables in JSON Example response</li>
-          <li>[GitHub #5711] - Fixed a bug where browse mode shows no environments for workspace, after duplicating an environment</li>
-          <li>[GitHub #5259] - Fixed a bug in console where only the last value of params with same keys was logged</li>
-          <li>[GitHub #6783] - Fix a bug where errors were not shown in console for raw mode</li>
-          <li>[GitHub #6662] - Fixed a bug where form data file reference was lost after saving a request to collection</li>
-          <li>[GitHub #6868] - Fixed a bug where GraphQL request was getting stuck with AWS and Hawk authentication</li>
-          <li>Fixed a bug where runner data import preview was not showing false boolean values</li>
-          <li>[GitHub #6923] - Fixed a bug where image was not detected in response body</li>
-          <li>[GitHub #7008] - Fixed a bug where runner would not recognize extensions for data files</li>
-          <li>[GitHub #6110] - Fixed the export issue in Collection Runner</li>
-          <li>[GitHub #6837] - Fixed a bug where object was shown as [object Object] in runner file preview</li>
-          <li>[GitHub #6961] - Added a deleted state for Runner when a collection is modified</li>
-          <li>[GitHub #6463] - Stopped syncing and saving of large examples (above 5Mb)</li>
-          <li>Update messaging around working-directory setting</li>
-          <li>[GitHub #6765] - Modified behaviour of $randomPhoneNumber and added $randomPhoneNumberExt</li>
-          <li>[GitHub #2922] - Added support for variable substitution using `replaceIn` method</li>
-          <li>[GitHub #6641] - Added HTTP version in raw mode console logs for requests</li>
-          <li>Added info button in response headers UI explaining purpose of each header</li>
-          <li>[GitHub #3525] - Add variable resolution in OAuth2 authorization token name</li>
-          <li>Added Multi Select and Bulk Actions in Runner</li>
-          <li>Added ESC key shortcut to close right overlay modal in API tab</li>
-          <li>[GitHub #4133] - Added C, PHP pecl_http, Python http.client, Httpie modes to the experimental codegen feature</li>
-          <li>[GitHub #2638] - Modified resolution of all *.localhost addresses to 127.0.0.1</li>
-          <li>[GitHub #3312] - Added support for programmatic cookie access via scripts</li>
-          <li>Create mock-server/monitor and add to the API in API tab</li>
-          <li>Add collection to the API as documentation or test while generating collection from schema</li>
-          <li>Add collection to the API as documentation or test while adding version tag from collection changelog</li>
-          <li>Realtime Collaboration in API Dev Platform</li>
-        </ul>
-      </description>
-    </release>
+    <release version="7.8.0" date="2019-09-25" />
   </releases>
   <content_rating type="oars-1.1" />
 </component>
