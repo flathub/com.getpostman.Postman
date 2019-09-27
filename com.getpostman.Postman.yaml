@@ -40,7 +40,7 @@ modules:
           - x86_64
         url: https://dl.pstmn.io/download/version/7.8.0/linux64
         sha256: e2c571675e8dc98ebdb77c1bdbafc8a2d51c60a408ef552f8e84b5baa8655901
-        size: 79241066
+        size: 77831826
         filename: Postman.tar.gz
       - type: script
         dest-filename: run.sh
