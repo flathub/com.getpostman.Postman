@@ -25,7 +25,21 @@
   </screenshots>
   <url type="homepage">https://www.getpostman.com</url>
   <releases>
-    <release version="7.8.0" date="2019-09-25" />
+    <release version="7.9.0" date="2019-10-10">
+      <description>
+        <ul>
+          <li>[GitHub #5053] - Added support for `pm.collectionVariables` to modified collection variables</li>
+          <li>[GitHub #3942] - Added support for configuring proxy behavior using environment variables</li>
+          <li>[GitHub #6380] - Added configuration to allow bypassing the global proxy</li>
+          <li>[GitHub #5143] - Fixed an issue where Run In Postman button was not working when app was closed</li>
+          <li>[GitHub #7283] - Fixed an issue where Save Response button was disabled for response with empty body</li>
+          <li>[GitHub #4674] - Fixed some performance issues around loading of Collection Runner</li>
+          <li>[GitHub #7267] - Fixed an issue where lesson CTA text overflows in empty state in two pane view.</li>
+          <li>Maximizing, closing and reopening with dual monitors opens in primary monitor</li>
+          <li>Shortcuts fire even if the user is in browse view of workspace</li>
+        </ul>
+      </description>
+    </release>
   </releases>
   <content_rating type="oars-1.1" />
 </component>
