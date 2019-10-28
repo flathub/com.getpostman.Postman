@@ -25,18 +25,27 @@
   </screenshots>
   <url type="homepage">https://www.getpostman.com</url>
   <releases>
-    <release version="7.9.0" date="2019-10-10">
+    <release version="7.10.0" date="2019-10-24">
       <description>
         <ul>
-          <li>[GitHub #5053] - Added support for `pm.collectionVariables` to modified collection variables</li>
-          <li>[GitHub #3942] - Added support for configuring proxy behavior using environment variables</li>
-          <li>[GitHub #6380] - Added configuration to allow bypassing the global proxy</li>
-          <li>[GitHub #5143] - Fixed an issue where Run In Postman button was not working when app was closed</li>
-          <li>[GitHub #7283] - Fixed an issue where Save Response button was disabled for response with empty body</li>
-          <li>[GitHub #4674] - Fixed some performance issues around loading of Collection Runner</li>
-          <li>[GitHub #7267] - Fixed an issue where lesson CTA text overflows in empty state in two pane view.</li>
-          <li>Maximizing, closing and reopening with dual monitors opens in primary monitor</li>
-          <li>Shortcuts fire even if the user is in browse view of workspace</li>
+          <li>[GitHub #6449] - Added the settings -> update tab back in Postman Snap app</li>
+          <li>[GitHub #3835] - Added warnings to request-header editor when invalid characters are identified</li>
+          <li>Update the Postman Console to new user interface</li>
+          <li>Disable XML from dropdown when openapi 1/2/3 selected as type</li>
+          <li>Show API name in collection browser</li>
+          <li>[GitHub #7299] - Fixed an issue where runner was using disabled collection variables while running a collection</li>
+          <li>[GitHub #7288] - Fixed a bug where cookies were not updated in Collection Runner</li>
+          <li>[GitHub #7437] - Fixed an issue where `Beautify` button was not visible when language was inferred from Content-Type header</li>
+          <li>[GitHub #7051] - Fixed an issue where HttpOnly cookie was not getting updated to non-HttpOnly</li>
+          <li>Disallow creation of version tags on collections for free users on the non-latest state of a collection</li>
+          <li>Fixed an issue where example request was missing after resolving conflicts</li>
+          <li>Fixed a bug where app used to stay in build mode on workspace leave action</li>
+          <li>[GitHub #6966] - Added support for Akamai EdgeGrid authentication</li>
+          <li>Schema changelog</li>
+          <li>Added flow to allow creating APIs by importing schema</li>
+          <li>Added support to redirect relations to dashboard</li>
+          <li>Ability to create APIs from CNX flow</li>
+          <li>Improved UI and extended functionality of API Network in the app</li>
         </ul>
       </description>
     </release>
