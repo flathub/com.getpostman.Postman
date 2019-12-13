@@ -25,12 +25,15 @@
   </screenshots>
   <url type="homepage">https://www.getpostman.com</url>
   <releases>
-    <release version="7.11.0" date="2019-11-06">
+    <release version="7.13.0" date="2019-12-04">
       <description>
         <ul>
-          <li>Cleaning up old backup files that were created during app updates</li>
-          <li>[GitHub #7100] - Copy and Paste does not work on Mac</li>
-          <li>Added support for using data URI as image source in Visualizer</li>
+          <li>Fix incorrect tooltip shown in examples in the saved state</li>
+          <li>[GitHub #7266] - Fixed an issue where created by field of workspace details was incorrect</li>
+          <li>[GitHub #7497] - Show confirmation dialog before closing modals using escape key during workspace creation flow</li>
+          <li>[GitHub #7539] - Added body viewer modal in Console to support bodies larger than 10KB</li>
+          <li>Various UX fixes in Console</li>
+          <li>Removed restore button from the most recent changelog for a schema</li>
         </ul>
       </description>
     </release>
