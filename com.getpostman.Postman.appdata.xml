@@ -25,15 +25,20 @@
   </screenshots>
   <url type="homepage">https://www.getpostman.com</url>
   <releases>
-    <release version="7.13.0" date="2019-12-04">
+    <release version="7.14.0" date="2019-12-18">
       <description>
         <ul>
-          <li>Fix incorrect tooltip shown in examples in the saved state</li>
-          <li>[GitHub #7266] - Fixed an issue where created by field of workspace details was incorrect</li>
-          <li>[GitHub #7497] - Show confirmation dialog before closing modals using escape key during workspace creation flow</li>
-          <li>[GitHub #7539] - Added body viewer modal in Console to support bodies larger than 10KB</li>
-          <li>Various UX fixes in Console</li>
-          <li>Removed restore button from the most recent changelog for a schema</li>
+          <li>cursor is incorrectly focused on the the create and edit Workspace when the modal is opened</li>
+          <li>[GitHub #4355] - Fixed a bug where NTLM could not complete authentication if multiple `www-authenticate` headers were sent</li>
+          <li>[GitHub #6227] - Fixed a bug where proxy auth was failing when the username/password contained special characters</li>
+          <li>[GitHub #4070] - Fixed a bug where basic auth was failing when it had UTF-8 characters in username/password</li>
+          <li>[GitHub #5768] - Fixed a bug where the app was crashing when `username` or `password` fields were empty for NTLM auth</li>
+          <li>[GitHub #5626] - Fixed a bug where IPv6 localhost request through IPv4 localhost proxy was failing</li>
+          <li>[GitHub #7497] - Show confirmation dialog if there are unsaved changes while creating new documentation and user tries to close the modal using esc key</li>
+          <li>[GitHub #5434] - Allowed using non-bearer tokens in OAuth2 token manager</li>
+          <li>Switched default mode to postman-code-generators for codegen modal</li>
+          <li>Updated the OpenAPI3.0, Swagger2.0, cURL importers</li>
+          <li>[GitHub #5217] - Added feature to infer domain name when username is for the form domain\username or username@domain for NTLM authentication</li>
         </ul>
       </description>
     </release>
