@@ -25,20 +25,22 @@
   </screenshots>
   <url type="homepage">https://www.getpostman.com</url>
   <releases>
-    <release version="7.14.0" date="2019-12-18">
+    <release version="7.16.0" date="2020-01-16">
       <description>
         <ul>
-          <li>cursor is incorrectly focused on the the create and edit Workspace when the modal is opened</li>
-          <li>[GitHub #4355] - Fixed a bug where NTLM could not complete authentication if multiple `www-authenticate` headers were sent</li>
-          <li>[GitHub #6227] - Fixed a bug where proxy auth was failing when the username/password contained special characters</li>
-          <li>[GitHub #4070] - Fixed a bug where basic auth was failing when it had UTF-8 characters in username/password</li>
-          <li>[GitHub #5768] - Fixed a bug where the app was crashing when `username` or `password` fields were empty for NTLM auth</li>
-          <li>[GitHub #5626] - Fixed a bug where IPv6 localhost request through IPv4 localhost proxy was failing</li>
-          <li>[GitHub #7497] - Show confirmation dialog if there are unsaved changes while creating new documentation and user tries to close the modal using esc key</li>
-          <li>[GitHub #5434] - Allowed using non-bearer tokens in OAuth2 token manager</li>
-          <li>Switched default mode to postman-code-generators for codegen modal</li>
-          <li>Updated the OpenAPI3.0, Swagger2.0, cURL importers</li>
-          <li>[GitHub #5217] - Added feature to infer domain name when username is for the form domain\username or username@domain for NTLM authentication</li>
+          <li>[GitHub #6782] - Fixed Import Folder flow for RAML 0.8 Specification</li>
+          <li>In-app lesson for how to use Interceptor for capturing cookies</li>
+          <li>Added support for in-app installation of Interceptor</li>
+          <li>[GitHub #6563] - Collection runner performance improvements</li>
+          <li>[GitHub #6206] - Added a warning in Postman Console about headers for failed requests</li>
+          <li>[GitHub #5699] - Added ability in Console to show request body of form data type in raw view</li>
+          <li>[GitHub #5912] - Added support for filename* in form data as per RFC 6266</li>
+          <li>[GitHub #7447] - Fixed an issue where first suggestion was not highlighting while interacting with keyboard.</li>
+          <li>Fixed a bug where Filter Dropdown would auto-close when data is streaming into Console</li>
+          <li>[GitHub #3742] - Fixed a bug where form param with no file selected was not sent</li>
+          <li>Fixed cell highlight bug in Request Validation</li>
+          <li>[GitHub #1906] - Added support for importing RAML 1.0</li>
+          <li>[GitHub #4091] - Added support for brotli decompression of response body</li>
         </ul>
       </description>
     </release>
