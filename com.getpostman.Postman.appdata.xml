@@ -25,17 +25,21 @@
   </screenshots>
   <url type="homepage">https://www.getpostman.com</url>
   <releases>
-    <release version="7.17.0" date="2020-02-01">
+    <release version="7.18.0" date="2020-02-10">
       <description>
         <ul>
-          <li>Fixed a bug where null and undefined values in variables were shown as empty in variable suggestion tooltip</li>
-          <li>Fixed an issue where changelog was not formatted properly</li>
-          <li>[GitHub #6624] - Fixed a bug where renaming a request re-opened all items in Collections tab of sidebar when a filter was set</li>
-          <li>Fixed a bug where cookies with Max-Age are not deleted</li>
-          <li>Fixed an issue where data-file with BOM characters or encoding other than UTF-8 were not working</li>
-          <li>[GitHub #5230] - Fixed a bug where double borders for request URL were shown when zooming in or out</li>
-          <li>Fixed a bug where API gets stuck in loading state when the user is offline</li>
-          <li>Added ability for users to request higher roles on APIs shared within a team</li>
+          <li>Visualizer is now out of beta! Learn more about visualizing your API response with Postman: https://blog.getpostman.com/2019/11/04/visualizing-apis-of-the-world or watch the Visualizer Webinar: https://www.postman.com/webinars/visualizer-webinar</li>
+          <li>GraphQL is now out of beta! Check out our GraphQL quick start guide: https://learning.postman.com/docs/postman/sending-api-requests/graphql.</li>
+          <li>Added ability for users to request higher roles on APIs shared within a team.</li>
+          <li>Added confirmation for unsaved changes on accidentally closing the modal during mock creation flow.</li>
+          <li>Disabled JSON language option for RAML type schemas.</li>
+          <li>Renaming a request re-opened all items in Collections tab of sidebar when a filter was set [#6624].</li>
+          <li>Script pane was crashing when accessing a collection variable with object value [#7759].</li>
+          <li>Double borders for request URL were shown when zooming in or out [#5230].</li>
+          <li>Blank page appeared while creating a mock server [#7751].</li>
+          <li>Cookies with Max-Age were not deleted.</li>
+          <li>data-file with BOM characters or encoding other than UTF-8 were not working.</li>
+          <li>API tab was getting stuck in the loading state when the user is offline.</li>
         </ul>
       </description>
     </release>
