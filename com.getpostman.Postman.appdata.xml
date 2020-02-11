@@ -28,8 +28,8 @@
     <release version="7.18.0" date="2020-02-10">
       <description>
         <ul>
-          <li>Visualizer is now out of beta! Learn more about visualizing your API response with Postman: https://blog.getpostman.com/2019/11/04/visualizing-apis-of-the-world or watch the Visualizer Webinar: https://www.postman.com/webinars/visualizer-webinar</li>
-          <li>GraphQL is now out of beta! Check out our GraphQL quick start guide: https://learning.postman.com/docs/postman/sending-api-requests/graphql.</li>
+          <li>Visualizer is now out of beta!</li>
+          <li>GraphQL is now out of beta!</li>
           <li>Added ability for users to request higher roles on APIs shared within a team.</li>
           <li>Added confirmation for unsaved changes on accidentally closing the modal during mock creation flow.</li>
           <li>Disabled JSON language option for RAML type schemas.</li>
