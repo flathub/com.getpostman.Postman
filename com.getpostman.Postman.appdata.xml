@@ -25,21 +25,20 @@
   </screenshots>
   <url type="homepage">https://www.getpostman.com</url>
   <releases>
-    <release version="7.19.1" date="2020-02-25">
+    <release version="7.20.0" date="2020-03-09">
       <description>
         <ul>
-          <li>[GitHub #7433] - Monospace editor font not loading in Linux</li>
-          <li>Fixed an issue where response was rendered in light theme even when dark theme was selected.</li>
-          <li>[GitHub #7745] - Fixed issue where undo did not work while naming/renaming a request in a tab</li>
-          <li>[GitHub #7823] - Fixed an issue where double clicking on title bar in maximised state makes window invisible</li>
-          <li>Disable minute timer for free user on monitor creation</li>
-          <li>Fixed an issue where placement of "Beautify" button in request body in two pane layout was inconsistent with single pane layout</li>
-          <li>Fixed a bug where request editor tabs would overlap in two pane layout when resizing</li>
-          <li>[GitHub #7997] - Fixed a bug in Runner where result items of a run overlapped on retrying a run.</li>
-          <li>Create new monitors when in Browse mode, even if monitors already exist.</li>
-          <li>Add entry point in collection drop-down menu for pull request.</li>
-          <li>List all roles available on Postman entities in accordance to team plan</li>
-          <li>Added "Request Access" button in error toasts when user lacks permission while editing schema or API version</li>
+          <li>UI changes for comments in app</li>
+          <li>Show a warning when accessing cookies using script for a domain that is not whitelisted</li>
+          <li>Improvements in import folder flow</li>
+          <li>[GitHub #5752] - Updated URL encoding behavior as per WHATWG URL standard</li>
+          <li>Updated the Create New API flow in the API builder</li>
+          <li>Create linking between mock listing and call logs view</li>
+          <li>Fixed a bug where variables with reserved characters (`#`, `?`, `:`, etc.) in URL were not being resolved</li>
+          <li>[GitHub #7848] - Fixed a bug where an object as variable key crashes the script editor</li>
+          <li>[GitHub #6852] - Fixed an issue where default value for 'Automatically persist variable values' setting was set to true.</li>
+          <li>[GitHub #2366] - Disable automatic addition of content-type headers when selecting language</li>
+          <li>Fixed the placeholder text for collection and folder descriptions</li>
         </ul>
       </description>
     </release>
