@@ -25,23 +25,7 @@
   </screenshots>
   <url type="homepage">https://www.getpostman.com</url>
   <releases>
-    <release version="7.20.0" date="2020-03-09">
-      <description>
-        <ul>
-          <li>UI changes for comments in app</li>
-          <li>Show a warning when accessing cookies using script for a domain that is not whitelisted</li>
-          <li>Improvements in import folder flow</li>
-          <li>[GitHub #5752] - Updated URL encoding behavior as per WHATWG URL standard</li>
-          <li>Updated the Create New API flow in the API builder</li>
-          <li>Create linking between mock listing and call logs view</li>
-          <li>Fixed a bug where variables with reserved characters (`#`, `?`, `:`, etc.) in URL were not being resolved</li>
-          <li>[GitHub #7848] - Fixed a bug where an object as variable key crashes the script editor</li>
-          <li>[GitHub #6852] - Fixed an issue where default value for 'Automatically persist variable values' setting was set to true.</li>
-          <li>[GitHub #2366] - Disable automatic addition of content-type headers when selecting language</li>
-          <li>Fixed the placeholder text for collection and folder descriptions</li>
-        </ul>
-      </description>
-    </release>
+    <release version="7.21.1" date="2020-03-24" />
   </releases>
   <content_rating type="oars-1.1" />
 </component>
