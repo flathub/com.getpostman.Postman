@@ -44,9 +44,10 @@ modules:
         size: 81013075
         filename: Postman.tar.gz
         x-checker-data:
-          - type: rotating-url
-            url: https://dl.pstmn.io/download/latest/linux64
-            pattern: https://dl.pstmn.io/download/version/([0-9.]+)/linux64
+          - type: html
+            url: https://www.postman.com/downloads/
+            version-pattern: 'Version ([\d\.]*)'
+            url-template: https://dl.pstmn.io/download/version/$version/linux64
       - type: script
         dest-filename: run.sh
         commands:
