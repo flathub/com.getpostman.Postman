@@ -39,9 +39,9 @@ modules:
       - type: extra-data
         only-arches:
           - x86_64
-        url: https://dl.pstmn.io/download/version/7.22.1/linux64
-        sha256: 6941cc5772db6ed6519f4b26119cc53f30135665ae28f5c7435bab58a9f650b6
-        size: 81013075
+        url: https://dl.pstmn.io/download/version/7.27.0/linux64
+        sha256: a9713982232ac919c709f3d60ebd7d5448cbea32947d7821e2370f93214df180
+        size: 100225519
         filename: Postman.tar.gz
         x-checker-data:
           - type: html
