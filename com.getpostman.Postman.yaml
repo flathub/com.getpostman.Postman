@@ -42,6 +42,11 @@ modules:
         url: https://dl.pstmn.io/download/version/7.27.1/linux64
         sha256: a65b9c7908c75c86389561a6ed059091e105ef46957391e18ddd95be149e8729
         size: 100222393
+        x-checker-data:
+          type: html
+          url: https://www.postman.com/downloads/release-notes
+          version-pattern: 'Postman v([\d\.]+)'
+          url-template: https://dl.pstmn.io/download/version/$version/linux64
         filename: Postman.tar.gz
       - type: script
         dest-filename: run.sh
