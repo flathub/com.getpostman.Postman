@@ -23,11 +23,9 @@ modules:
       - install -Dm644 -t /app/share/metainfo com.getpostman.Postman.appdata.xml
       - install -Dm755 run.sh ${FLATPAK_DEST}/bin/Postman
       - icon_in="${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg";
-        icon_out="${FLATPAK_ID}.png";
-        for s in {32,64,128,256,512}; do
-        rsvg-convert "${icon_in}" -w "${s}" -h "${s}" -a -f png -o "${icon_out}";
-        install -p -Dm644 "${icon_out}" -t "${FLATPAK_DEST}/share/icons/hicolor/${s}x${s}/apps/";
-        done;
+        icon_out="${FLATPAK_ID}.png"; for s in {32,64,128,256,512}; do rsvg-convert
+        "${icon_in}" -w "${s}" -h "${s}" -a -f png -o "${icon_out}"; install -p -Dm644
+        "${icon_out}" -t "${FLATPAK_DEST}/share/icons/hicolor/${s}x${s}/apps/"; done;
     sources:
       - type: script
         dest-filename: apply_extra
@@ -39,13 +37,13 @@ modules:
       - type: extra-data
         only-arches:
           - x86_64
-        url: https://dl.pstmn.io/download/version/7.29.1/linux64
-        sha256: e9e8ad50865e2a4088383efc4ef074d587b0c8b4c9b53f3501f66f16d776a78b
-        size: 104138183
+        url: https://dl.pstmn.io/download/version/7.31.0/linux64
+        sha256: 8585da3fcb6aeeb638424057026cd8adcade9f2d055116b49abe267791638cfe
+        size: 104178438
         x-checker-data:
           type: html
           url: https://www.postman.com/downloads
-          version-pattern: 'Version ([\d\.]+)'
+          version-pattern: Version ([\d\.]+)
           url-template: https://dl.pstmn.io/download/version/$version/linux64
         filename: Postman.tar.gz
       - type: script

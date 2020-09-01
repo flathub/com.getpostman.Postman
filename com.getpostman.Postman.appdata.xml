@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
   <id>com.getpostman.Postman</id>
   <metadata_license>CC0-1.0</metadata_license>
@@ -25,7 +25,8 @@
   </screenshots>
   <url type="homepage">https://www.getpostman.com</url>
   <releases>
-    <release version="7.29.1" date="2020-08-04" />
+    <release version="7.31.0" date="2020-09-01"/>
+    <release version="7.29.1" date="2020-08-04"/>
   </releases>
-  <content_rating type="oars-1.1" />
+  <content_rating type="oars-1.1"/>
 </component>
