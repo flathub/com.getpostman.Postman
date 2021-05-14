@@ -30,7 +30,7 @@ modules:
       - type: script
         dest-filename: apply_extra
         commands:
-          - tar -xf Postman.tar.gz
+          - tar --no-same-owner -xf Postman.tar.gz
           - rm Postman.tar.gz
           - mkdir -p /app/extra/Postman
           - mv Postman/app/* /app/extra/Postman
