@@ -37,9 +37,9 @@ modules:
       - type: extra-data
         only-arches:
           - x86_64
-        url: https://dl.pstmn.io/download/version/8.11.0/linux64
-        sha256: 6cffeb25f150480958b514b3894606b15f9098e2161c0638863291a2a31a5ff2
-        size: 129556659
+        url: https://dl.pstmn.io/download/version/8.10.0/linux64
+        sha256: 05f3eaa229483a7e1f698e6e2ea2031d37687de540d4fad05ce677ac216db24d
+        size: 129643146
         x-checker-data:
           type: html
           url: https://dl.pstmn.io/api/version/latest?platform=linux64&channel=stable
