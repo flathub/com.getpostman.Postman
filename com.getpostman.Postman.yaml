@@ -6,6 +6,8 @@ base: org.electronjs.Electron2.BaseApp
 base-version: '20.08'
 command: Postman
 separate-locales: false
+tags:
+  - proprietary
 finish-args:
   - --share=ipc
   - --socket=x11
