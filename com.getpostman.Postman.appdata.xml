@@ -24,6 +24,7 @@
     </screenshot>
   </screenshots>
   <url type="homepage">https://www.postman.com</url>
+  <developer_name>Postman Inc.</developer_name>
   <releases>
     <release version="9.1.5" date="2021-11-17"/>
     <release version="8.12.5" date="2021-11-17"/>
