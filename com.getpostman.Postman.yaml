@@ -52,7 +52,7 @@ modules:
       - type: script
         dest-filename: run.sh
         commands:
-          - exec env TMPDIR=$XDG_CACHE_HOME /app/extra/Postman/Postman "$@"
+          - zypak-wrapper.sh /app/extra/Postman/Postman "$@"
       - type: file
         path: com.getpostman.Postman.desktop
       - type: file
