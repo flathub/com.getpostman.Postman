@@ -18,6 +18,7 @@
       Inc.
     </p>
   </description>
+  <launchable type="desktop-id">com.getpostman.Postman.desktop</launchable>
   <screenshots>
     <screenshot type="default">
       <image>https://assets.postman.com/postman-docs/postman-app-default-v8.jpg</image>
