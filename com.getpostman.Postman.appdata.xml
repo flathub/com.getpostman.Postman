@@ -27,8 +27,11 @@
   <url type="homepage">https://www.postman.com</url>
   <developer_name>Postman Inc.</developer_name>
   <releases>
-    <release version="11.31.3" date="2025-02-05">
+    <release version="11.31.4" date="2025-02-07">
       <description></description>
+    </release>
+    <release version="11.31.3" date="2025-02-05">
+      <description/>
     </release>
     <release version="11.31.0" date="2025-02-02">
       <description/>
