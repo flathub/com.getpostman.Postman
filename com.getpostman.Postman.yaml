@@ -16,7 +16,18 @@ finish-args:
   - --device=dri
   - --filesystem=home
   - --talk-name=com.canonical.AppMenu.Registrar
+  - --talk-name=org.freedesktop.Flatpak
 modules:
+  - name: host-git-wrapper
+    buildsystem: simple
+    build-commands:
+      - install -Dm755 git-host-wrapper.sh /app/bin/git
+    sources:
+      - type: script
+        dest-filename: git-host-wrapper.sh
+        commands:
+          - '#!/bin/sh'
+          - 'exec flatpak-spawn --host git "$@"'
   - name: Postman
     buildsystem: simple
     build-commands:
