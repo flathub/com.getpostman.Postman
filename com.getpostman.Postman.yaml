@@ -16,7 +16,17 @@ finish-args:
   - --device=dri
   - --filesystem=home
   - --talk-name=com.canonical.AppMenu.Registrar
+build-options:
+  no-debuginfo: true  #Prevents "Read-only file system" warning in Git module
 modules:
+  - name: Git
+    buildsystem: autotools
+    config-opts:
+      - --prefix=/app
+    sources:
+      - type: archive
+        url: https://www.kernel.org/pub/software/scm/git/git-2.53.0.tar.xz
+        sha256: 5818bd7d80b061bbbdfec8a433d609dc8818a05991f731ffc4a561e2ca18c653
   - name: Postman
     buildsystem: simple
     build-commands:
