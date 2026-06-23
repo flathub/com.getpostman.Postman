@@ -4,15 +4,15 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary</project_license>
   <name>Postman</name>
-  <summary>Platform for building and using APIs</summary>
+  <summary>API Development Environment</summary>
   <description>
     <p>**NOTE: This wrapper is not verified by, affiliated with, or supported by Postman Inc.**</p>    
     <p>
-      Postman is the complete toolchain for API developers, used by 5 million
-      developers and more than 100,000 companies worldwide to access 130 million
-      APIs every month. Postman makes working with APIs faster and easier by
-      supporting developers at every stage of their workflow, and is available
-      for macOS, Windows, Linux and Chrome users.
+      Postman is an API platform for building and using APIs. Postman
+      simplifies each step of the API lifecycle and streamlines collaboration
+      so you can create better APIs -- faster. Over 30 million developers and
+      500,000 organizations use Postman, which is available for Mac OS X,
+      Windows, Linux, and Chrome users.
     </p>
   </description>
   <launchable type="desktop-id">com.getpostman.Postman.desktop</launchable>
