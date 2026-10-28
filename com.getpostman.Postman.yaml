@@ -17,7 +17,9 @@ finish-args:
   - --filesystem=home
   - --talk-name=com.canonical.AppMenu.Registrar
 modules:
-  - name: git
+  - name: Git
+    build-options:
+      no-debuginfo: true
     make-args:
       - NO_GETTEXT=1
       - NO_PERL=1
