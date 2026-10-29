@@ -1,22 +1,41 @@
 app-id: com.getpostman.Postman
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '26.08'
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: '23.08'
+base-version: '26.08'
 command: Postman
 separate-locales: false
 tags:
   - proprietary
 finish-args:
   - --share=ipc
-  - --socket=x11
+  - --socket=wayland
+  - --socket=fallback-x11
   - --socket=pulseaudio
   - --share=network
   - --device=dri
   - --filesystem=home
   - --talk-name=com.canonical.AppMenu.Registrar
 modules:
+  - name: Git
+    build-options:
+      no-debuginfo: true
+    make-args:
+      - NO_GETTEXT=1
+      - NO_PERL=1
+      - NO_RUST=1
+      - NO_TCLTK=1
+    make-install-args:
+      - INSTALL_SYMLINKS=1
+      - NO_GETTEXT=1
+      - NO_PERL=1
+      - NO_RUST=1
+      - NO_TCLTK=1
+    sources:
+      - type: archive
+        url: https://www.kernel.org/pub/software/scm/git/git-2.56.0.tar.xz
+        sha256: 26c56c296b38c0695b26fa95f475f1d01704d2d38e73465ca30b0b2f5dc789d3
   - name: Postman
     buildsystem: simple
     build-commands:
@@ -40,9 +59,9 @@ modules:
       - type: extra-data
         only-arches:
           - x86_64
-        url: https://dl.pstmn.io/download/version/11.1.0/linux64
-        sha256: 7c06b1acb6525c6058af856ed02cf6a59c178af49391a205e702f6d7b701f6a3
-        size: 142636617
+        url: https://dl.pstmn.io/download/version/12.34.3/linux64
+        sha256: 164c97d2d6277ad36bc201b443765d7817e29ccd71e1af3e3361e19a766d32b8
+        size: 209269598
         x-checker-data:
           type: json
           url: https://dl.pstmn.io/api/version/latest?platform=linux64&channel=stable
@@ -52,9 +71,9 @@ modules:
       - type: extra-data
         only-arches:
           - aarch64
-        url: https://dl.pstmn.io/download/version/11.1.0/linuxarm64
-        sha256: caad89e4a46ffcd2436901bb7bb44acb36c9a8a591a25494f57ea4847c65acda
-        size: 143052410
+        url: https://dl.pstmn.io/download/version/12.34.3/linuxarm64
+        sha256: 5e26bfecd1b615a5d6d4d07b0074e84230a2a0375beaddc73db36fd0a907a100
+        size: 207689521
         x-checker-data:
           type: json
           url: https://dl.pstmn.io/api/version/latest?platform=linuxarm64&channel=stable
