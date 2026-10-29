@@ -2,7 +2,7 @@
 <component type="desktop">
   <id>com.getpostman.Postman</id>
   <metadata_license>CC0-1.0</metadata_license>
-  <project_license>LicenseRef-proprietary</project_license>
+  <project_license>LicenseRef-proprietary=https://www.postman.com/legal/terms</project_license>
   <name>Postman</name>
   <summary>Platform for building and using APIs</summary>
   <description>
