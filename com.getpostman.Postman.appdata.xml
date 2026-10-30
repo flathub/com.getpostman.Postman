@@ -25,8 +25,11 @@
 	<name>Postman Inc.</name>
   </developer>
   <releases>
-    <release version="12.34.3" date="2026-10-29">
+    <release version="12.34.4" date="2026-10-30">
       <description></description>
+    </release>
+    <release version="12.34.3" date="2026-10-29">
+      <description/>
     </release>
     <release version="12.34.2" date="2026-10-28">
       <description/>
