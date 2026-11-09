@@ -59,9 +59,9 @@ modules:
       - type: extra-data
         only-arches:
           - x86_64
-        url: https://dl.pstmn.io/download/version/12.35.5/linux64
-        sha256: bc4453acd5f4290688c7725b81e80a5fc3ba960c61d206d5f89144d39e437ab6
-        size: 209259904
+        url: https://dl.pstmn.io/download/version/12.36.0/linux64
+        sha256: d7a898822209dd5aea3f550a027069b5dd62a3ac4295f00f9e012598b3f8dd80
+        size: 209596610
         x-checker-data:
           type: json
           url: https://dl.pstmn.io/api/version/latest?platform=linux64&channel=stable
@@ -71,9 +71,9 @@ modules:
       - type: extra-data
         only-arches:
           - aarch64
-        url: https://dl.pstmn.io/download/version/12.35.5/linuxarm64
-        sha256: 63b12a2b9d7e9ad631d623e1a471c35ddcac593a6b4ca83dd4a70e2200be4935
-        size: 207602006
+        url: https://dl.pstmn.io/download/version/12.36.0/linuxarm64
+        sha256: 6c79592baac469c69c62d051436afcc5d4a87adbd01e992474dfda7c9cf5d305
+        size: 207937220
         x-checker-data:
           type: json
           url: https://dl.pstmn.io/api/version/latest?platform=linuxarm64&channel=stable
